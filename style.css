@@ -1,0 +1,308 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #2b2929;
+    font-family: "Noto Sans JP", "Zen Maru Gothic", sans-serif;
+}
+
+.inner {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button {
+    font-size: 1.6rem;
+    padding: 20px 101px 20px 101px;
+    border-radius: 40px;
+    background-color: #f6d759;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+a:visited {
+    color: #2b2929;
+}
+
+a:hover {
+    color: blue;  
+    text-decoration: underline;
+}
+
+/* header */
+.header_square {
+    height: 20px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #4de363;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 146px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name p {
+    font-size: 2rem;
+}
+
+.name h1 {
+    font-size: 2.4rem;
+}
+
+.reservation_button {
+    background-color: #f6d759;
+    border-radius: 20px;
+    padding: 11px 21px 11px 21px;
+    display: flex;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-left: 25px;
+}
+
+.header_main,
+.header_info,
+.header_nav {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.logo {
+    max-width: 43px;
+    max-height: 54px;
+    margin-top: 63px;
+}
+
+.name {
+    margin-top: 63px;
+    display: inline-block;
+    padding-left: 12px;
+}
+
+.info {
+    margin-top: 26px;
+}
+
+.header_nav_main {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 44px;
+}
+
+.header_nav_main a {
+    text-decoration: none;
+}
+
+/* main */
+.main_image {
+    width: 100%;
+    height: 754px;
+    background-image: url(images/passione-m-GOOGOUjRVAA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: #fff;
+    font-size: 1.6em;
+    font-family: "Zen Maru Gothic";
+    text-shadow: 1px 1px 2px black;
+}
+
+.main_image_text {
+    padding-top: 390px;
+    padding-left: 242px;
+}
+
+h2 {
+    font-family: "Zen Maru Gothic";
+    font-size: 2.4rem;
+    margin-top: 90px;
+    margin-bottom: 26px;
+}
+
+/* お知らせ */
+.details {
+    width: 960px;
+    border-bottom: 1px solid #2b2929;
+    display: flex;
+}
+
+.details span {
+    margin-right: 43px;
+    margin-bottom: 6px;
+}
+
+.notification_button {
+    margin-top: 36px;
+    text-align: center;
+}
+
+/* 診療時間・曜日 */
+.main_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consulation_time_day {
+    margin-right: 71px;
+}
+
+tr:nth-of-type(1) td {
+    background-color: #38cab9;
+}
+
+table {
+    border-collapse: none;
+    border-spacing: 0;
+}
+
+tr:nth-of-type(2) td,
+tr:nth-of-type(4) td  {
+    background-color: #f5f5f5;
+}
+
+tr, td {
+    padding: 24px 24px 21px 13px;
+}
+
+.green {
+    color: #30B844;
+    font-weight: bold;
+}
+
+.explanation_green {
+    display: flex;
+}
+
+.explanation {
+    padding: 22px 0 0 0;
+}
+
+.explanation p {
+    padding-bottom: 22px;
+}
+
+.consulation_button {
+    text-align: center;
+}
+
+/* アクセス */
+.map {
+    width: 447px;
+    height: 287px;
+    object-fit: cover;
+}
+
+.zip {
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.address {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.access_button {
+    text-align: center;
+    margin-top: 17px;
+}
+
+/* 特徴 */
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features_details {
+    width: 282px;
+}
+
+.features_details h3 {
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.image_photo {
+    width: 282px;
+    height: 228px;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+/* 院長 */
+.clinic_director_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.director_message {
+    width: 452px;
+}
+
+.director_message p {
+    margin-bottom: 30px;
+}
+
+.director_photo {
+    width: 478px;
+    height: 354px;
+    object-fit: cover;
+    margin-top: 203px;
+}
+
+/* footer */
+.footer {
+    background-color: #4de363;
+    margin-top: 90px;
+}
+
+.footer_inner {
+    width: 495px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer_nav_1,
+.footer_nav_1_1,
+.footer_nav_2,
+.footer_nav_2_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_nav_1_1 {
+    column-gap: 28px;
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+.footer_nav_2_2 {
+    column-gap: 14px;
+    margin-bottom: 74px;
+}
+
+.footer_inner {
+    text-align: start;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 30px;
+}
